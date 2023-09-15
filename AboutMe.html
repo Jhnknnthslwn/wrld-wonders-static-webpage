@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+		
+		<link rel= 'icon' href= 'logo-icon.png' sizes='35x35'/>
+		
+		<title> About Me </title>
+		
+		<link rel = "stylesheet" href = "aboutMe.css">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Dongle&family=Roboto+Condensed&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+		
+</head>
+
+<body>
+
+		<div class = "header">
+			
+			<nav id = "navbar">
+				
+				<a href="index.html"><img src = "final-logo.png" class = "logo"></a>
+				
+				<ul id = "menu">
+				
+						 <a href="index.html" style = "text-decoration:none;"> <li>INDEX</li>    </a>
+						 <a href="Home-Page-1.html" style = "text-decoration:none;"> <li>MAN MADE WONDERS</li>     </a>
+						 <a href="Home-Page-2.html" style = "text-decoration:none;"> <li>NATURE WONDERS</li> </a>
+						 <a href="deadSea.html" style = "text-decoration:none;"> <li>FEATURES</li> </a>
+						 <a href="Gallery.html" style = "text-decoration:none;"> <li>GALLERY</li> </a>
+						 <a href="aboutMe.html" style = "text-decoration:none;"> <li>ABOUT ME</li>  </a>
+				
+				</ul>
+				
+			</nav>
+			
+		</div>
+			
+			
+			
+		<div class = "bgContainer">	
+		
+					<p style = "margin-top: 50px; color: #fff; text-decoration: overline; font-size: 50px; font-family: 'Dongle', sans-serif; text-align:center;"> About Me </p>
+			
+			<div class = "container">
+			
+				<div class = "profile-box">
+				<img src = "img-AboutMe/menu.png" class = "menu-icon">
+				<img src = "img-AboutMe/setting.png" class = "setting-icon">
+				<img src = "img-AboutMe/profile-pic.png" class = "profile-pic">
+				
+				<h3>John Kenneth C. Silawan</h3>
+				<p>BSIT 1101 - Wonderful Wonders of The World Website Project </p>
+				
+					<a href = "https://www.instagram.com/mykenzi_io/" target="_blank"  rel="noopener noreferrer"> <img src = "img-AboutMe/instagram.png" style = "cursor: pointer; width:29px; position:absolute; top:350px; left: 220px;"> </a>
+					<a href = "https://www.facebook.com/silawan.johnkenneth" target="_blank"  rel="noopener noreferrer" > <img src = "img-AboutMe/facebook.png " style = "cursor: pointer; width:44px; position:absolute; top:342px; left: 280px;"> </a>
+					<a href = "https://twitter.com/MyKenZi_iO?t=GHaBoM9aQGt0fANtko_SdA&s=09" target="_blank"  rel="noopener noreferrer" > <img src = "img-AboutMe/twitter.png" style = "cursor: pointer; width:35px; position:absolute; top:350px; left: 360px;"> </a>
+				
+					<button type = "button" onclick=" window.open('https://www.facebook.com/silawan.johnkenneth')"> Follow </button>
+					
+					<div class = "profile-bottom">
+						<p style = "margin-top: 20px; text-decoration:underline;"> </p>
+			
+					</div>
+			
+				</div>
+			</div>
+		</div>
+		
+			
+			
+			<!-- Javascript -->
+	
+						<script>
+		
+								var navbar =  document.getElementById("navbar");
+								var menu =  document.getElementById("menu");
+		
+											window.onscroll = function(){
+		
+											if(window.pageYOffset >= menu.offsetTop){
+			
+													navbar.classList.add("sticky");
+			
+											}else{
+				
+													navbar.classList.remove("sticky");
+				
+												 }
+		
+											}
+		
+						</script>
+			
+				
+				<!-- Bottom Part -->
+		
+				<p class = "Credits">@ 2022 Silawan, John Kenneth C. | Introduction to Computing Batch 2 | Website Project | Beautiful Wonders of The World | No Copyright Infringement Intended - All rights reserve to the Righful Owners</p>
+
+</body>
+
+</html>
