@@ -1,87 +1,122 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-"www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
 
-<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content = "width=device-width, initial-scale=1.0">
-		
-		<link rel= 'icon' href= 'logo-icon.png' sizes='35x35'/>
-		
-		<title> Beautiful Wonders of The World </title>
-		
-		<link rel = "stylesheet" href = "style.css">
-		
-		<link href = "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-		
-		
-</head>
+    <link
+      rel="icon"
+      href="logo-icon.png"
+      sizes="35x35" />
 
-<body>
-	<div class="container">
-		<div class="navbar">
+    <title>Beautiful Wonders of The World</title>
 
-			<img src ="logo-icon.png" class="logo">
-			<nav>
-				<ul>
-					<li><a href="Home-Page-1.html"> MAN MADE WONDERS </a></li>
-					<li><a href="Home-Page-2.html"> NATURE WONDERS </a></li>
-					<li><a href="deadSea.html"> FEATURES </a></li>
-					<li><a href="Gallery.html"> GALLERY </a></li>
-					<li><a href="AboutMe.html"> ABOUT ME </a></li>
-				</ul>
-			</nav>
-			<!-- -->
-		</div>
-		
-			<div class="row">
-					
-					<div class="col">
-							<h1 style = " margin-right:80px;"> Wonders of The World</h1>
-							<p style = "line-height:30px; margin-top:15px; margin-right:25px; text-align:justify;">Earth is home to a few superb natural wonders which have been created over millions of years as a consequence of volcanic activity, water and wind erosion, for different reasons.  These tremendous worldly esthetics might be described as natural or man-made. Furthermore, all the world's greatest places have one factor in common: they are astounding to look at and experience. World wonders can be observed in a variety of forms and sizes. That's why I put up this list of natural marvels, which incorporates tips from a whole lot of sources in addition to some of my own.</p>
-							
-							<button type ="button" onclick="window.location.href = 'Home-Page-1.html';"> Explore More</button>
-					
-					</div>
-					
-					<div class="col">
-							
-							<div  onclick="location.href='deadSea.html';" class="card card1">
-								<h5>Dead Sea</h5>
-								<p>Sitting at 1,410 feet below sea level, the Dead Sea is the lowest body of water on Earth's surface. Located at desert featuring high concentration of salt, it's the perfect spot for floating and fascinating crystal water.</p>
-							</div>
-							
-							<div onclick="location.href='grandCanyon.html';" class="card card2">
-								<h5>Grand Canyon</h5>
-								<p>Grand Canyon is Arizona's most well-known natural wonder with its massive size and magnificent views, this natural wonder is a must-see. It extends for 277 river miles and is 18 miles long side-to-side.</p>
-							</div>
-							
-							<div onclick="location.href='fairyPools.html';" class="card card3">
-								<h5>Fairy Pools</h5>
-								<p>Skye's lovely Fairy Pools can only be reached on foot via the Glen Brittle forest, however the journey is well worth it to view the pristine waters of these natural pools in person, its truly a sight to see.  </p>
-							</div>
-							
-							<div  onclick="location.href='naPali-Coast.html';" class="card card4">
-								<h5>Na Pali Coast</h5>
-								<p>The multicolored cliffs and turquoise blue waves of Hawaii's Na Pali Coast fascinate visitors. Hiking the cliffs will reward you with views of the Pacific Ocean and Kalalau Valley from 4,000 feet above.</p>
-							</div>
-							
-							<div onclick="location.href='bioluminescent-Beaches.html';" class="card card5">
-								<h5>Bioluminescent Beaches</h5>
-								<p>You may visit any of the 1,190 islands of Maldives South Asian sovereign state stunning luminous beaches. Athuruga, Reethi, and Mirihi are some of the top locations to observe this natural light display.</p>
-							</div>
-							
-							<div onclick="location.href='salar-de-Uyuni.html';" class="card card6">
-								<h5>Salar de Uyuni</h5>
-								<p>When lakes surrounding these Bolivian salt flats flood they produces a magnificent mirrored area surface that mirrors the sky and clouds above. Salar de Uyuni spans 4,050 square miles.</p>
-							</div>
-							
-							
-					</div>
-			</div>
-			
-	</div>
+    <link
+      rel="stylesheet"
+      href="style.css" />
 
-</body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+  </head>
 
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img
+          src="logo-icon.png"
+          class="logo" />
+
+        <div
+          class="burger"
+          onclick="toggleMenu(this)">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav id="nav-links">
+          <ul>
+            <li><a href="Home-Page-1.html"> MAN MADE WONDERS </a></li>
+            <li><a href="Home-Page-2.html"> NATURE WONDERS </a></li>
+            <li><a href="deadSea.html"> FEATURES </a></li>
+            <li><a href="Gallery.html"> GALLERY </a></li>
+            <li><a href="AboutMe.html"> ABOUT ME </a></li>
+          </ul>
+        </nav>
+        <!-- -->
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h1 style="margin-right: 80px">Wonders of The World</h1>
+          <p style="line-height: 30px; margin-top: 15px; margin-right: 25px; text-align: justify">Earth is home to a few superb natural wonders which have been created over millions of years as a consequence of volcanic activity, water and wind erosion, for different reasons. These tremendous worldly esthetics might be described as natural or man-made. Furthermore, all the world's greatest places have one factor in common: they are astounding to look at and experience. World wonders can be observed in a variety of forms and sizes. That's why I put up this list of natural marvels, which incorporates tips from a whole lot of sources in addition to some of my own.</p>
+
+          <button
+            type="button"
+            onclick="window.location.href = 'Home-Page-1.html';">
+            Explore More
+          </button>
+        </div>
+
+        <!-- <div class="col">
+          <div
+            onclick="location.href='deadSea.html';"
+            class="card card1">
+            <h5>Dead Sea</h5>
+            <p>Sitting at 1,410 feet below sea level, the Dead Sea is the lowest body of water on Earth's surface. Located at desert featuring high concentration of salt, it's the perfect spot for floating and fascinating crystal water.</p>
+          </div>
+
+          <div
+            onclick="location.href='grandCanyon.html';"
+            class="card card2">
+            <h5>Grand Canyon</h5>
+            <p>Grand Canyon is Arizona's most well-known natural wonder with its massive size and magnificent views, this natural wonder is a must-see. It extends for 277 river miles and is 18 miles long side-to-side.</p>
+          </div>
+
+          <div
+            onclick="location.href='fairyPools.html';"
+            class="card card3">
+            <h5>Fairy Pools</h5>
+            <p>Skye's lovely Fairy Pools can only be reached on foot via the Glen Brittle forest, however the journey is well worth it to view the pristine waters of these natural pools in person, its truly a sight to see.</p>
+          </div>
+
+          <div
+            onclick="location.href='naPali-Coast.html';"
+            class="card card4">
+            <h5>Na Pali Coast</h5>
+            <p>The multicolored cliffs and turquoise blue waves of Hawaii's Na Pali Coast fascinate visitors. Hiking the cliffs will reward you with views of the Pacific Ocean and Kalalau Valley from 4,000 feet above.</p>
+          </div>
+
+          <div
+            onclick="location.href='bioluminescent-Beaches.html';"
+            class="card card5">
+            <h5>Bioluminescent Beaches</h5>
+            <p>You may visit any of the 1,190 islands of Maldives South Asian sovereign state stunning luminous beaches. Athuruga, Reethi, and Mirihi are some of the top locations to observe this natural light display.</p>
+          </div>
+
+          <div
+            onclick="location.href='salar-de-Uyuni.html';"
+            class="card card6">
+            <h5>Salar de Uyuni</h5>
+            <p>When lakes surrounding these Bolivian salt flats flood they produces a magnificent mirrored area surface that mirrors the sky and clouds above. Salar de Uyuni spans 4,050 square miles.</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+
+  <!-- Burger ICON Toggle -->
+  <script>
+    function toggleMenu(icon) {
+      const nav = document.getElementById("nav-links");
+      const body = document.body;
+
+      nav.classList.toggle("show");
+      icon.classList.toggle("active");
+      body.classList.toggle("noscroll");
+    }
+  </script>
 </html>
