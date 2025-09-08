@@ -55,6 +55,18 @@ nav ul li a:hover {
 .col {
   flex-basis: 80%;
 }
+
+/* TODO */
+.lpage-h1 {
+  margin-right: 80px;
+}
+
+.lpage-parag {
+  line-height: 30px;
+  margin-top: 15px;
+  margin-right: 25px;
+  text-align: justify;
+}
 h1 {
   color: #fff;
   /* font-size: 100px; */
